@@ -1,0 +1,44 @@
+# Node.js
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+build/
+dist/
+
+# Dependency directories
+node_modules/
+
+# IDE and Editor directories and files
+.vscode/
+.idea/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# package-lock.json and yarn.lock (optional, depends on your choice)
+package-lock.json
+yarn.lock
+
+# coverage folder (for testing tools like Jest, Mocha)
+coverage/
+
+# NPM and Yarn lock files (optional, depends on your choice)
+package-lock.json
+yarn.lock
