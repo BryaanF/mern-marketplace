@@ -1,0 +1,14 @@
+{
+	"name": "mern-marketplace",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"start": "concurrently \"npm run start --prefix frontend\" \"npm run start --prefix backend\"",
+		"dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
+		"build": "npm run build --prefix frontend",
+		"test": "echo 'No test specified' && exit 0"
+	},
+	"dependencies": {
+		"concurrently": "^7.0.0"
+	}
+}
